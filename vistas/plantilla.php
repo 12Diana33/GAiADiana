@@ -98,8 +98,8 @@
       
       </script>";
       echo '<div class="wrapper">';
-      include 'modulos/encabezado.php';
-      include 'modulos/menu.php';
+      include __DIR__ . '/modulos/encabezado.php';
+      include __DIR__ . '/modulos/menu.php';
       echo '<div class="content-wrapper">';
 
       if (isset($_GET["ruta"])) {
@@ -121,19 +121,21 @@
           $_GET["ruta"] == "Salir"
 
         ) {
-          include "modulos/" . $_GET["ruta"] . ".php";
+          include __DIR__ . "/modulos/" . $_GET["ruta"] . ".php";
         } //fin de lista blanca
         else {
           include "modulos/error404.php";
         } // si la ruta no existe
 
+      } else {
+        include __DIR__ . "/modulos/inicio.php";
       }
       // cerrando el content wrapper
       echo "</div>";
-      include 'modulos/footer.php';
+      include __DIR__ . '/modulos/footer.php';
       echo "</div>";
     } else {
-      include "modulos/login.php";
+      include __DIR__ . "/modulos/login.php";
     }
 
 

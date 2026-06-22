@@ -1,6 +1,6 @@
    <aside class="main-sidebar sidebar-dark-primary elevation-4">
      <!-- Brand Logo -->
-     <a href="index3.html" class="brand-link">
+     <a href="index.php?ruta=inicio" class="brand-link">
        <!-- <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
        <span class="brand-text font-weight-light">GAiA</span>
      </a>
@@ -42,35 +42,35 @@
 
              <ul class="nav nav-treeview">
                <li class="nav-item">
-                 <a href="apoyos" class="nav-link">
+                 <a href="index.php?ruta=apoyos" class="nav-link">
                    <i class="far fa-circle nav-icon"></i>
                    <p>Apoyos</p>
                  </a>
                </li>
 
                <li class="nav-item">
-                 <a href="convocatorias" class="nav-link">
+                 <a href="index.php?ruta=convocatorias" class="nav-link">
                    <i class="far fa-circle nav-icon"></i>
                    <p>Convocatoria</p>
                  </a>
                </li>
 
                <li class="nav-item">
-                 <a href="./sedes" class="nav-link">
+                 <a href="index.php?ruta=sedes" class="nav-link">
                    <i class="far fa-circle nav-icon"></i>
                    <p>Sedes</p>
                  </a>
                </li>
 
                <li class="nav-item">
-                 <a href="Usuarios" class="nav-link">
+                 <a href="index.php?ruta=Usuarios" class="nav-link">
                    <i class="far fa-circle nav-icon"></i>
                    <p>Usuarios</p>
                  </a>
                </li>
 
                <li class="nav-item">
-                 <a href="fichas" class="nav-link">
+                 <a href="index.php?ruta=fichas" class="nav-link">
                    <i class="far fa-circle nav-icon"></i>
                    <p>Fichas</p>
                  </a>
@@ -81,7 +81,7 @@
 
 
            <li class="nav-item">
-             <a href="identificacion" class="nav-link">
+             <a href="index.php?ruta=identificacion" class="nav-link">
                <i class="nav-icon fas fa-life-ring"></i>
                <p>
                  Identificación de apoyos
@@ -91,7 +91,7 @@
 
 
            <li class="nav-item">
-             <a href="inscripciones" class="nav-link">
+             <a href="index.php?ruta=inscripciones" class="nav-link">
                <i class="nav-icon fas fa-pencil-alt"></i>
                <p>
                  Inscripciones
@@ -113,15 +113,13 @@
  
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="verificacion" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
+                    <a href="index.php?ruta=verificacion" class="nav-link">
                     <p>Verificación</p>
                   </a>
                 </li>
  
                 <li class="nav-item">
-                  <a href="puntuacion" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
+                    <a href="index.php?ruta=puntuacion" class="nav-link">
                     <p>Puntuación</p>
                   </a>
                 </li>
@@ -131,7 +129,7 @@
             <?php endif; ?>
 
            <li class="nav-item">
-             <a href="financiera" class="nav-link">
+             <a href="index.php?ruta=financiera" class="nav-link">
                <i class="fas fa-money-bill-wave"></i>
                <p>
                  Financiera
@@ -140,7 +138,7 @@
            </li>
 
            <li class="nav-item">
-             <a href="reportes" class="nav-link">
+             <a href="index.php?ruta=reportes" class="nav-link">
                <i class="fas fa-chart-bar"></i>
                <p>
                  Reportes

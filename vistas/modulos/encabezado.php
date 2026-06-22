@@ -6,7 +6,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="index.php?ruta=inicio" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -46,7 +46,7 @@
       
       <!-- BOTON DE SALIR TEMPORAL -->
       <div >
-        <a href="Salir" class="dropdown-item"><i class="fas fa-sign-out-alt mr-2"></i> Cerrar sesión</a>
+        <a href="index.php?ruta=Salir" class="dropdown-item"><i class="fas fa-sign-out-alt mr-2"></i> Cerrar sesión</a>
       </div>
 
       <li class="nav-item">
