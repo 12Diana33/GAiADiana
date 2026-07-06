@@ -138,6 +138,15 @@
            </li>
 
            <li class="nav-item">
+             <a href="index.php?ruta=notificaciones" class="nav-link">
+               <i class="nav-icon fas fa-bell"></i>
+               <p>
+                 Notificaciones
+               </p>
+             </a>
+           </li>
+
+           <li class="nav-item">
              <a href="index.php?ruta=reportes" class="nav-link">
                <i class="fas fa-chart-bar"></i>
                <p>
