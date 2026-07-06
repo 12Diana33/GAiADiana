@@ -151,6 +151,15 @@
              </a>
            </li>
 
+           <li class="nav-item">
+             <a href="index.php?ruta=notificaciones" class="nav-link">
+               <i class="fas fa-bell"></i>
+               <p>
+                 Notificaciones
+               </p>
+             </a>
+           </li>
+
          </ul>
        </nav>
        <!-- /.sidebar-menu -->

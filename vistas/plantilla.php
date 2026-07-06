@@ -117,6 +117,7 @@
           $_GET["ruta"] == "reportes" ||
           $_GET["ruta"] == "inscripciones" ||
           $_GET["ruta"] == "inscripciones2" ||
+          $_GET["ruta"] == "notificaciones" ||
           $_GET["ruta"] == "Usuarios" ||
           $_GET["ruta"] == "Salir"
 
